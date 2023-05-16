@@ -1,0 +1,63 @@
+* {
+  margin: 0px;
+}
+
+#ping-pong {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#main-container {
+  border: 1px solid grey;
+  display: inline-block;
+}
+
+img {
+  height: 300px;
+  margin-bottom: 0px;
+}
+
+#title {
+  margin-top: 0px;
+  padding: 10px;
+  border: 1px solid grey;
+}
+
+#score-container {
+  padding: 10px 0px 20px 10px;
+  border: 1px solid grey;
+}
+
+#score {
+  font-size: 40px;
+}
+
+#playing {
+  font-size: 20px;
+}
+
+#btn-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn {
+  width: 150px;
+  padding: 20px;
+  border: white;
+  border-radius: 5px;
+}
+
+#player-one-btn {
+  background-color: orange;
+}
+
+#player-two-btn {
+  background-color: teal;
+}
+
+#reset-btn {
+  background-color: tomato;
+}

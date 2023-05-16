@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🏓 Ping Pong Score Keeper</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="ping-pong">
+      <div id="main-container">
+        <img
+          src="https://images.unsplash.com/photo-1576617497557-22895ee5930b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cGluZyUyMHBvbmd8ZW58MHx8MHx8&w=1000&q=80"
+        />
+        <div id="container">
+          <p id="title">Ping Pong Score Keeper</p>
+          <div id="score-container">
+            <p id="score">
+              <span id="player-one-score">0</span> to
+              <span id="player-two-score">0</span>
+            </p>
+            <p>Use the buttons below to keep score.</p>
+            <b id="playing">Playing to</b>
+            <select id="options" onChange="assignSelected()">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+            </select>
+          </div>
+          <div id="btn-container">
+            <button class="btn score-btn" id="player-one-btn">
+              +1 Player One
+            </button>
+            <button class="btn score-btn" id="player-two-btn">
+              +1 Player Two
+            </button>
+            <button class="btn" id="reset-btn">Reset</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
